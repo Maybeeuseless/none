@@ -400,5 +400,69 @@ nav{
    margin-left: 600px;
    margin-top: 110px;
 }
-
-
+.section_heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -20px;
+}
+.section_main{
+    text-align: center;
+    font-size: 45px;
+    margin-right: 65px;
+}
+.section_span{
+    color: rgb(180, 163, 14);
+    text-align: center;
+    margin-left: 15px;
+}
+.section_disc{
+    width: 300px;
+    text-align: center;
+    position: relative;
+    margin-left: 515px;
+    margin-top: -30px;
+    font-size: 10px;
+}
+.bl3_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
+    text-align: center;
+}
+.bl3_card{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 380px;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.27);
+    background-color: white;
+}
+.menu_png{
+    height: 90px;
+    width: 90px;
+    padding-left: 60px;
+    flex-grow: 1;
+}
+.menu_head{
+    width: 200px;
+    text-align: center;
+    margin-left: 15px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.menu_body{
+    color: rgb(180, 163, 14);
+    flex-grow: 1;
+}
+.lm_ar_bl3{
+    text-decoration: none;
+}
+.menu_disc_main{
+    font-size: 9px;
+    color: #000;
+    width: 150px;
+    text-align: center;
+    margin-left: 40px ;
+}
